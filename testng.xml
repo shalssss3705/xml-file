@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <!--<parameter name="browser" value="chrome"></parameter>-->
+    <classes>
+		<class name="com.demowebshop.test.RegisterPageTest"/>
+		 <class name="com.demowebshop.test.Register1PageTest"/>
+		  <class name="com.demowebshop.test.HomePageTest"/>
+		  <class name="com.demowebshop.test.ShoppingPageTest"/>
+		   <class name="com.demowebshop.test.CheckboxPageTest"/>
+		  <class name="com.demowebshop.test.ShippingAddressPageTest"/>
+       <class name="com.demowebshop.test.PaymentPageTest"/>
+       <class name="com.demowebshop.test.PamentInfoPageTest"/>
+       <class name="com.demowebshop.test.ConfirmPageTest"/>
+      <class name="com.demowebshop.test.ThankyouPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
